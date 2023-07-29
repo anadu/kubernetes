@@ -5,11 +5,10 @@ metadata:
    namespace: roboshop
 spec:
   containers:
-  - name: nginx
-    image: nginx
-  - name: sidecar
-    image: almalinux  
-
-
-
+  - image: nginx
+    name: nginx  
+  - image: alamalinux
+    name: sidecar  
+    command: ["sleep","200"]
+    
       
