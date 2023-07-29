@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: pod
+metadata:
+   name: kishore
+   Namespace: roboshop
+spec:
+  containers:
+    - image: nginx
+      ports:
+      - name:  nginx port
+        port:  80
+        protocol: TCP
