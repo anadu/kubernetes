@@ -5,12 +5,10 @@ metadata:
    namespace: roboshop
 spec:
   containers:
-    - name: nginx
-      image:  nginx
-      ports:
-      - containerPort: 80
-    - name: sidecar
-      image: almalinux  
+  - name: nginx
+    image: nginx
+  - name: sidecar
+    image: almalinux  
 
 
 
