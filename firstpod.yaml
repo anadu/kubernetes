@@ -1,14 +1,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-   name: kishore
-   namespace: roboshop
+  name: kishore
+  namespace: roboshop
 spec:
   containers:
-  - image: nginx
-    name: nginx  
-  - image: alamalinux
-    name: sidecar  
-    command: ["sleep","200"]
-    
+    - image: nginx
+      name: nginx
+    - image: alamalinux
+      name: sidecar
+      command: ["sleep", "200"]
+
+
       
