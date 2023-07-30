@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: apiVersion: v1
+kind: ConfigMap
+data:
+  Course: Devops
+  trainer: shiva
+  duration: 30
