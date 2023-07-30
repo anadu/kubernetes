@@ -3,4 +3,4 @@ kind: ConfigMap
 data:
   course: "devops"
   trainer: "shiva"
-  duration: 30
+  duration: "30"
