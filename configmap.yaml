@@ -1,5 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
+metadata:
+  name: courses
 data:
   course: "devops"
   trainer: "shiva"
