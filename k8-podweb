@@ -11,5 +11,4 @@ spec:
     name: web
     imagePullPolicy: Always
     ports:
-    - name: web
       port: 80
