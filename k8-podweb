@@ -13,6 +13,3 @@ spec:
     ports:
     - name: web
       port: 80
-
-   
-    
