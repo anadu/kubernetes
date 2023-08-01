@@ -18,7 +18,6 @@ kind: Service
 metadata:
   name: mongodb
 spec:
-  type: LoadBalancer
   selector:
     name: mongodb
     tier: db
